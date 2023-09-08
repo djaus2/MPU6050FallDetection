@@ -12,7 +12,7 @@ Loop
 - Calculate Pitch and Roll
 - If Pitch or Roll are greater than lesser trigger
   - Increment fallcount
-  - If fallcount > largetrigger
+  - If fallcount > large trigger
     - Report fallen on ground
   - Else if fallcount > medium trigger
     - Report has fallen
