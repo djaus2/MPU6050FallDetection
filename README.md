@@ -16,7 +16,6 @@ Loop
     - Report fallen on ground
   - Else if fallcount > medium trigger
     - Report has fallen
-  - Else report falen
 - Else if fallcount >0
   - Report Stumble
   - Set fallcount = 0
