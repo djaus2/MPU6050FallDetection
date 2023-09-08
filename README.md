@@ -10,7 +10,7 @@ Start
 
 Loop
 - Calculate Pitch and Roll
-- If Pitch or Roll are greater than triggers
+- If Pitch or Roll are greater than lesser trigger
   - Increment fallcount
   - If fallcount > largetrigger
     - Report fallen on ground
