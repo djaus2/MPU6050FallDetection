@@ -40,7 +40,7 @@ void setup() {
 void loop() {
   mpu6050.update();
 
-  if(millis() - timer > 500){
+  if(millis() - timer > LOOP_DELAY){
 /*    
     Serial.println("=======================================================");
     Serial.print("temp : ");Serial.println(mpu6050.getTemp());
